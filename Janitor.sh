@@ -1,4 +1,5 @@
 # Eden Workstation's Janitor Worker 1.0 by Danny LyriCa
+# Janitor LV 0
 # General House Keeping
 rm -rf ~/*.log *.png .bash_history
 rm -rf ~/.config/transmission-daemon/torrents/*.torrent
