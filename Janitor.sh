@@ -1,10 +1,16 @@
 # Eden Workstation's Janitor Worker 1.0 by Danny LyriCa
 # Janitor LV 0
+##################################
+# Personal House Keeping
+rm ~/*.log *.png .bash_history
+
+# Torrents
+rm ~/.config/transmission-daemon/torrents/*.torrent
+rm ~/.config/transmission/torrents/*.torrent
+
 # General House Keeping
-rm -rf ~/*.log *.png .bash_history
-rm -rf ~/.config/transmission-daemon/torrents/*.torrent
 rm -rdir --recursive -f ~/.cache .log
 rm -rf --recursive  -f ~/.local/share/Trash
+
 # Wine association cleanup
-rm -rf ~/.local/share/applications/wine*
-rm -rdir ~/.local/share/applications/wine
+rm ~/.local/share/applications/wine*
