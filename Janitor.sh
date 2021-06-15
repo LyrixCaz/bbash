@@ -1,4 +1,4 @@
-# Eden Workstation's Janitor Worker 1.0 by Danny LyriCa
+# Eden Workstation's Janitor Worker v0.1 by Danny LyriCa
 # Janitor LV 0
 ##################################
 # Personal House Keeping
