@@ -69,7 +69,7 @@ zypper dup --allow-vendor-change
 
 # The programs+
 zypper in neofetch vim
-zypper in --recommends gnome-disk-utility hugo git-core keepassxc MozillaFirefox MozillaThunderbird transmission-qt mpv libvulkan_intel-32bit libvulkan_radeon libvulkan_radeon-32bit ucode-intel flatpak flatpak-remote-flathub gamemode gamemoded libgamemode0 libgamemode0-32bit libgamemodeauto0 libgamemodeauto0-32bit mangohud mangohud-32bit steam gamescope dxvk dxvk-32bit s-tui thermald thermal-monitor kdeconnect-kde fwupd nextcloud-desktop retroarch pcsx2 rpcs3 bibletime yast2-printer skanlite krename ffmpeg-4 realtimeconfigquickscan filelight
+zypper in --recommends gnome-disk-utility hugo git-core keepassxc MozillaFirefox MozillaThunderbird transmission-qt mpv libvulkan_intel-32bit libvulkan_radeon libvulkan_radeon-32bit ucode-intel flatpak flatpak-remote-flathub gamemode gamemoded libgamemode0 libgamemode0-32bit libgamemodeauto0 libgamemodeauto0-32bit mangohud mangohud-32bit steam gamescope dxvk dxvk-32bit s-tui thermald thermal-monitor kdeconnect-kde fwupd nextcloud-desktop retroarch pcsx2 rpcs3 bibletime yast2-printer skanlite krename ffmpeg-4 realtimeconfigquickscan filelight goldendict
 systemctl enable gamemoded@$ME
 systemctl enable thermald
 gpasswd -a $ME -g power
